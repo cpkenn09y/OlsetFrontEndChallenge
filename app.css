@@ -1,0 +1,83 @@
+/* YELP RATINGS: */
+/* Make the Yelp Rating Images be the same relative size as TripAdvisor rating */
+.yelpImage {
+  height: 20px
+}
+
+.yelpStars {
+  height: 16px
+}
+
+div.yelpRating {
+  font-size: 0.85em;
+  width: 33% !important
+}
+
+/* To Standardize with Existing Styling */
+.yelpRating .reviewCount {
+  color: #555;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  margin-top: -10px
+}
+
+.tripAdvisorRating {
+  width: 33% !important
+}
+
+.hotelRating {
+  width: 33% !important
+}
+
+/* Put the review count in the row below the TripAdvisor image */
+.tripAdvisorRating span.reviewCount {
+  display: block !important
+}
+
+/* PROGRESS BAR: */
+div.percentMatch {
+  background-color: beige;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid black
+}
+
+.percentMatch {
+  background-color: beige;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid black
+}
+
+.percentBar {
+  background-color: rgb(52, 115, 190);
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  width: 90%;
+  text-align: center;
+  color: whitesmoke
+  text-shadow: 2px 2px 4px #000000;
+}
+
+div.category {
+  padding-right: 3em
+}
+
+.visualizationContainer .preferencesContainer .basicPreferences > div {
+  display: flex;
+}
+
+/* Change Text Color */
+span.amenityName {
+  color: cornflowerblue
+}
+
+.customBlue {
+  color: cornflowerblue
+}
+
+/* NOTE: I would add media queries for a production project */
